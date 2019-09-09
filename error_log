@@ -1,0 +1,273 @@
+[09-Aug-2019 09:02:41 UTC] PHP Warning:  POST Content-Length of 11546176 bytes exceeds the limit of 8388608 bytes in Unknown on line 0
+[10-Aug-2019 05:25:36 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/centsoftwares/public_html/idondza/application/views/administrator/header-bottom.php on line 273
+[12-Aug-2019 09:44:28 UTC] PHP Fatal error:  Call to a member function get_categories() on null in /home/centsoftwares/public_html/idondza/application/controllers/Pages.php on line 12
+[12-Aug-2019 09:44:29 UTC] PHP Fatal error:  Call to a member function get_categories() on null in /home/centsoftwares/public_html/idondza/application/controllers/Pages.php on line 12
+[12-Aug-2019 10:45:31 UTC] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/centsoftwares/public_html/idondza/application/controllers/Pages.php on line 21
+[12-Aug-2019 11:04:28 UTC] PHP Fatal error:  Call to undefined method Pages::isUserLoggedin() in /home/centsoftwares/public_html/idondza/application/controllers/Pages.php on line 8
+[13-Aug-2019 07:29:14 UTC] PHP Fatal error:  Cannot use object of type stdClass as array in /home/centsoftwares/public_html/idondza/application/views/pages/magazine-details.php on line 17
+[13-Aug-2019 08:26:42 UTC] PHP Parse error:  syntax error, unexpected '?>' in /home/centsoftwares/public_html/idondza/application/views/pages/magazine-details.php on line 48
+[13-Aug-2019 08:27:37 UTC] PHP Parse error:  syntax error, unexpected '?>' in /home/centsoftwares/public_html/idondza/application/views/pages/magazine-details.php on line 48
+[13-Aug-2019 08:27:39 UTC] PHP Parse error:  syntax error, unexpected '?>' in /home/centsoftwares/public_html/idondza/application/views/pages/magazine-details.php on line 48
+[13-Aug-2019 08:30:35 UTC] PHP Parse error:  syntax error, unexpected '?>' in /home/centsoftwares/public_html/idondza/application/views/pages/magazine-details.php on line 103
+[13-Aug-2019 08:50:29 UTC] PHP Fatal error:  Call to a member function row_array() on null in /home/centsoftwares/public_html/idondza/application/models/Category_Model.php on line 65
+[13-Aug-2019 08:50:59 UTC] PHP Fatal error:  Call to a member function row_array() on null in /home/centsoftwares/public_html/idondza/application/models/Category_Model.php on line 65
+[13-Aug-2019 09:08:06 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/centsoftwares/public_html/idondza/application/views/templates/header-front.php on line 36
+[13-Aug-2019 09:08:11 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/centsoftwares/public_html/idondza/application/views/templates/header-front.php on line 36
+[14-Aug-2019 08:48:57 UTC] PHP Fatal error:  Call to undefined method User_Model::print_products() in /home/centsoftwares/public_html/idondza/application/controllers/Users.php on line 40
+[14-Aug-2019 08:49:04 UTC] PHP Fatal error:  Call to undefined method User_Model::print_products() in /home/centsoftwares/public_html/idondza/application/controllers/Users.php on line 40
+[14-Aug-2019 08:49:08 UTC] PHP Fatal error:  Call to undefined method User_Model::print_products() in /home/centsoftwares/public_html/idondza/application/controllers/Users.php on line 40
+[14-Aug-2019 10:09:00 UTC] PHP Parse error:  syntax error, unexpected 'foreach' (T_FOREACH) in /home/centsoftwares/public_html/idondza/application/views/users/vieworder.php on line 81
+[16-Aug-2019 08:23:24 UTC] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/centsoftwares/public_html/idondza/application/controllers/Publisher.php on line 427
+[16-Aug-2019 10:50:51 UTC] PHP Parse error:  syntax error, unexpected '=' in /home/centsoftwares/public_html/idondza/application/controllers/Administrator.php on line 1444
+[16-Aug-2019 11:20:56 UTC] PHP Fatal error:  Call to undefined method Administrator_Model::get_single_issue() in /home/centsoftwares/public_html/idondza/application/controllers/Publisher.php on line 725
+[16-Aug-2019 11:21:07 UTC] PHP Fatal error:  Call to undefined method Administrator_Model::get_single_issue() in /home/centsoftwares/public_html/idondza/application/controllers/Publisher.php on line 725
+[16-Aug-2019 11:43:16 UTC] PHP Fatal error:  Call to undefined method Administrator_Model::get_single_issue() in /home/centsoftwares/public_html/idondza/application/controllers/Publisher.php on line 771
+[16-Aug-2019 12:00:57 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/centsoftwares/public_html/idondza/application/controllers/Publisher.php on line 795
+[16-Aug-2019 12:03:08 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/centsoftwares/public_html/idondza/application/controllers/Publisher.php on line 795
+[16-Aug-2019 12:21:27 UTC] PHP Parse error:  syntax error, unexpected '==' (T_IS_EQUAL), expecting ')' in /home/centsoftwares/public_html/idondza/application/controllers/Administrator.php on line 1327
+[16-Aug-2019 12:26:39 UTC] PHP Parse error:  syntax error, unexpected '?' in /home/centsoftwares/public_html/idondza/application/views/administrator/update-blog.php on line 37
+[16-Aug-2019 12:26:59 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/centsoftwares/public_html/idondza/application/views/administrator/update-blog.php on line 37
+[16-Aug-2019 12:27:46 UTC] PHP Parse error:  syntax error, unexpected ')' in /home/centsoftwares/public_html/idondza/application/views/administrator/update-blog.php on line 37
+[16-Aug-2019 12:48:22 UTC] PHP Parse error:  syntax error, unexpected '{' in /home/centsoftwares/public_html/idondza/application/controllers/Publisher.php on line 753
+[17-Aug-2019 09:39:03 UTC] PHP Parse error:  syntax error, unexpected '$data' (T_VARIABLE) in /home/centsoftwares/public_html/idondza/application/controllers/Administrator.php on line 1444
+[17-Aug-2019 10:29:56 UTC] PHP Fatal error:  Call to undefined method Administrator_Model::get_single_issue_by_mid() in /home/centsoftwares/public_html/idondza/application/controllers/Administrator.php on line 362
+[19-Aug-2019 07:20:30 UTC] PHP Fatal error:  Call to a member function comman_function() on null in /home/centsoftwares/public_html/idondza/application/views/pages/category.php on line 35
+[19-Aug-2019 07:20:52 UTC] PHP Fatal error:  Call to a member function comman_function() on null in /home/centsoftwares/public_html/idondza/application/views/pages/category.php on line 34
+[19-Aug-2019 07:28:32 UTC] PHP Fatal error:  Cannot use object of type stdClass as array in /home/centsoftwares/public_html/idondza/application/views/pages/category.php on line 33
+[19-Aug-2019 08:03:21 UTC] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/centsoftwares/public_html/idondza/application/models/Administrator_Model.php on line 1015
+[19-Aug-2019 08:03:49 UTC] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/centsoftwares/public_html/idondza/application/models/Administrator_Model.php on line 1015
+[19-Aug-2019 08:04:07 UTC] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/centsoftwares/public_html/idondza/application/models/Administrator_Model.php on line 1015
+[19-Aug-2019 08:04:44 UTC] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/centsoftwares/public_html/idondza/application/models/Administrator_Model.php on line 1015
+[19-Aug-2019 08:04:50 UTC] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/centsoftwares/public_html/idondza/application/models/Administrator_Model.php on line 1015
+[19-Aug-2019 08:18:21 UTC] PHP Parse error:  syntax error, unexpected 'if' (T_IF), expecting ')' in /home/centsoftwares/public_html/idondza/application/models/Administrator_Model.php on line 1036
+[19-Aug-2019 08:24:15 UTC] PHP Fatal error:  Cannot use object of type stdClass as array in /home/centsoftwares/public_html/idondza/application/views/pages/magazine-details.php on line 17
+[19-Aug-2019 09:47:06 UTC] PHP Fatal error:  Cannot use object of type stdClass as array in /home/centsoftwares/public_html/idondza/application/views/pages/magazine-details.php on line 31
+[19-Aug-2019 10:16:33 UTC] PHP Parse error:  syntax error, unexpected '/' in /home/centsoftwares/public_html/idondza/application/views/pages/magazine-details.php on line 72
+[22-Aug-2019 08:04:37 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/centsoftwares/public_html/idondza/application/controllers/Publisher.php on line 379
+[22-Aug-2019 08:29:37 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/centsoftwares/public_html/idondza/application/views/templates/common.php on line 17
+[22-Aug-2019 08:39:52 UTC] PHP Parse error:  syntax error, unexpected '?>' in /home/centsoftwares/public_html/idondza/application/views/pages/home-index.php on line 3
+[22-Aug-2019 08:41:35 UTC] PHP Parse error:  syntax error, unexpected '?>' in /home/centsoftwares/public_html/idondza/application/views/pages/magazine-details.php on line 225
+[22-Aug-2019 08:59:47 UTC] PHP Parse error:  syntax error, unexpected '?>' in /home/centsoftwares/public_html/idondza/application/views/pages/magazine-details.php on line 224
+[22-Aug-2019 08:59:51 UTC] PHP Parse error:  syntax error, unexpected '?>' in /home/centsoftwares/public_html/idondza/application/views/pages/magazine-details.php on line 224
+[22-Aug-2019 09:02:00 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/centsoftwares/public_html/idondza/application/views/pages/magazine-details.php on line 19
+[22-Aug-2019 10:08:24 UTC] PHP Fatal error:  Call to a member function result_array() on null in /home/centsoftwares/public_html/idondza/application/models/Category_Model.php on line 113
+[22-Aug-2019 10:55:00 UTC] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/centsoftwares/public_html/idondza/application/controllers/Users.php on line 163
+[22-Aug-2019 10:55:33 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/centsoftwares/public_html/idondza/application/controllers/Users.php on line 168
+[22-Aug-2019 10:56:21 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/centsoftwares/public_html/idondza/application/controllers/Users.php on line 168
+[22-Aug-2019 11:49:38 UTC] PHP Fatal error:  Call to undefined function template_url() in /home/centsoftwares/public_html/idondza/application/controllers/Users.php on line 163
+[22-Aug-2019 11:49:53 UTC] PHP Fatal error:  Call to undefined function template_url() in /home/centsoftwares/public_html/idondza/application/controllers/Users.php on line 163
+[22-Aug-2019 11:50:19 UTC] PHP Fatal error:  Call to undefined function template_url() in /home/centsoftwares/public_html/idondza/application/controllers/Users.php on line 163
+[22-Aug-2019 11:55:23 UTC] PHP Fatal error:  Cannot use object of type CI_Config as array in /home/centsoftwares/public_html/idondza/application/controllers/Users.php on line 163
+[22-Aug-2019 11:57:23 UTC] PHP Fatal error:  Cannot use [] for reading in /home/centsoftwares/public_html/idondza/application/controllers/Users.php on line 163
+[22-Aug-2019 11:57:44 UTC] PHP Fatal error:  Cannot use object of type CI_Config as array in /home/centsoftwares/public_html/idondza/application/controllers/Users.php on line 163
+[22-Aug-2019 11:58:54 UTC] PHP Fatal error:  Cannot use object of type CI_Config as array in /home/centsoftwares/public_html/idondza/application/controllers/Users.php on line 163
+[22-Aug-2019 11:59:16 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/centsoftwares/public_html/idondza/application/controllers/Users.php on line 163
+[22-Aug-2019 12:14:39 UTC] PHP Parse error:  syntax error, unexpected '"../../assets/emailtemplate/re' (T_CONSTANT_ENCAPSED_STRING) in /home/centsoftwares/public_html/idondza/application/controllers/Users.php on line 163
+[22-Aug-2019 12:37:48 UTC] PHP Fatal error:  Call to undefined method CI_DB_mysqli_driver::row_array() in /home/centsoftwares/public_html/idondza/application/models/User_Model.php on line 117
+[22-Aug-2019 12:38:03 UTC] PHP Fatal error:  Call to undefined method CI_DB_mysqli_driver::row() in /home/centsoftwares/public_html/idondza/application/models/User_Model.php on line 117
+[22-Aug-2019 12:41:54 UTC] PHP Fatal error:  Call to undefined method CI_DB_mysqli_driver::row() in /home/centsoftwares/public_html/idondza/application/models/User_Model.php on line 117
+[22-Aug-2019 12:42:27 UTC] PHP Fatal error:  Call to undefined method CI_DB_mysqli_driver::row() in /home/centsoftwares/public_html/idondza/application/models/User_Model.php on line 117
+[23-Aug-2019 04:25:56 UTC] PHP Fatal error:  Call to undefined method User_Model::get_all_data_condition() in /home/centsoftwares/public_html/idondza/application/controllers/Users.php on line 356
+[23-Aug-2019 04:42:07 UTC] PHP Fatal error:  Call to undefined method User_Model::get_all_data_condition() in /home/centsoftwares/public_html/idondza/application/controllers/Users.php on line 356
+[23-Aug-2019 04:42:24 UTC] PHP Fatal error:  Call to undefined method User_Model::get_all_data_condition() in /home/centsoftwares/public_html/idondza/application/controllers/Users.php on line 356
+[23-Aug-2019 04:45:33 UTC] PHP Fatal error:  Call to undefined method User_Model::get_all_data_condition() in /home/centsoftwares/public_html/idondza/application/controllers/Users.php on line 356
+[23-Aug-2019 05:13:49 UTC] PHP Fatal error:  Cannot use object of type stdClass as array in /home/centsoftwares/public_html/idondza/application/views/users/favourites.php on line 24
+[23-Aug-2019 05:14:26 UTC] PHP Fatal error:  Cannot use object of type stdClass as array in /home/centsoftwares/public_html/idondza/application/views/users/favourites.php on line 24
+[23-Aug-2019 05:14:33 UTC] PHP Fatal error:  Cannot use object of type stdClass as array in /home/centsoftwares/public_html/idondza/application/views/users/favourites.php on line 24
+[23-Aug-2019 05:17:56 UTC] PHP Fatal error:  Cannot use object of type stdClass as array in /home/centsoftwares/public_html/idondza/application/views/users/favourites.php on line 24
+[23-Aug-2019 05:18:06 UTC] PHP Fatal error:  Cannot use object of type stdClass as array in /home/centsoftwares/public_html/idondza/application/views/users/favourites.php on line 24
+[23-Aug-2019 05:19:19 UTC] PHP Fatal error:  Cannot use object of type stdClass as array in /home/centsoftwares/public_html/idondza/application/views/users/favourites.php on line 24
+[23-Aug-2019 05:19:36 UTC] PHP Fatal error:  Cannot use object of type stdClass as array in /home/centsoftwares/public_html/idondza/application/views/users/favourites.php on line 25
+[23-Aug-2019 05:20:16 UTC] PHP Fatal error:  Cannot use object of type stdClass as array in /home/centsoftwares/public_html/idondza/application/views/users/favourites.php on line 25
+[23-Aug-2019 05:21:31 UTC] PHP Fatal error:  Cannot use object of type stdClass as array in /home/centsoftwares/public_html/idondza/application/views/users/favourites.php on line 24
+[23-Aug-2019 05:21:35 UTC] PHP Fatal error:  Cannot use object of type stdClass as array in /home/centsoftwares/public_html/idondza/application/views/users/favourites.php on line 24
+[23-Aug-2019 05:22:41 UTC] PHP Fatal error:  Cannot use object of type stdClass as array in /home/centsoftwares/public_html/idondza/application/views/users/favourites.php on line 24
+[23-Aug-2019 05:22:45 UTC] PHP Fatal error:  Cannot use object of type stdClass as array in /home/centsoftwares/public_html/idondza/application/views/users/favourites.php on line 24
+[23-Aug-2019 05:26:54 UTC] PHP Fatal error:  Cannot use object of type stdClass as array in /home/centsoftwares/public_html/idondza/application/views/users/favourites.php on line 27
+[23-Aug-2019 07:03:25 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/centsoftwares/public_html/idondza/application/views/templates/common.php on line 8
+[23-Aug-2019 07:03:30 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/centsoftwares/public_html/idondza/application/views/templates/common.php on line 8
+[23-Aug-2019 07:03:33 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/centsoftwares/public_html/idondza/application/views/templates/common.php on line 8
+[23-Aug-2019 07:03:37 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/centsoftwares/public_html/idondza/application/views/templates/common.php on line 8
+[23-Aug-2019 07:03:38 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/centsoftwares/public_html/idondza/application/views/templates/common.php on line 8
+[23-Aug-2019 07:03:45 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/centsoftwares/public_html/idondza/application/views/templates/common.php on line 8
+[23-Aug-2019 07:03:46 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/centsoftwares/public_html/idondza/application/views/templates/common.php on line 8
+[23-Aug-2019 07:03:50 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/centsoftwares/public_html/idondza/application/views/templates/common.php on line 8
+[23-Aug-2019 07:03:53 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/centsoftwares/public_html/idondza/application/views/templates/common.php on line 8
+[23-Aug-2019 07:03:54 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/centsoftwares/public_html/idondza/application/views/templates/common.php on line 8
+[23-Aug-2019 07:03:57 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/centsoftwares/public_html/idondza/application/views/templates/common.php on line 8
+[23-Aug-2019 07:03:58 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/centsoftwares/public_html/idondza/application/views/templates/common.php on line 8
+[23-Aug-2019 07:04:02 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/centsoftwares/public_html/idondza/application/views/templates/common.php on line 8
+[23-Aug-2019 08:16:11 UTC] PHP Fatal error:  Call to undefined method CI_Loader::articlescat() in /home/centsoftwares/public_html/idondza/application/views/pages/articles-reports.php on line 17
+[23-Aug-2019 08:21:48 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/centsoftwares/public_html/idondza/application/views/pages/articles-reports.php on line 18
+[23-Aug-2019 09:16:44 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/centsoftwares/public_html/idondza/application/views/publisher/magazines.php on line 109
+[23-Aug-2019 10:55:06 UTC] PHP Warning:  Unterminated comment starting line 413 in /home/centsoftwares/public_html/idondza/application/config/config.php on line 413
+[24-Aug-2019 07:07:17 UTC] PHP Parse error:  syntax error, unexpected ''login'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /home/centsoftwares/public_html/idondza/application/controllers/Users.php on line 335
+[24-Aug-2019 08:42:32 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/centsoftwares/public_html/idondza/application/views/users/change_password.php on line 15
+[26-Aug-2019 07:50:12 UTC] PHP Parse error:  syntax error, unexpected '*' in /home/centsoftwares/public_html/idondza/application/models/Category_Model.php on line 96
+[26-Aug-2019 08:57:51 UTC] PHP Fatal error:  Cannot use isset() on the result of a function call (you can use "null !== func()" instead) in /home/centsoftwares/public_html/idondza/application/controllers/Pages.php on line 66
+[26-Aug-2019 08:58:30 UTC] PHP Fatal error:  Cannot use isset() on the result of a function call (you can use "null !== func()" instead) in /home/centsoftwares/public_html/idondza/application/controllers/Pages.php on line 66
+[26-Aug-2019 08:58:33 UTC] PHP Fatal error:  Cannot use isset() on the result of a function call (you can use "null !== func()" instead) in /home/centsoftwares/public_html/idondza/application/controllers/Pages.php on line 66
+[26-Aug-2019 08:59:54 UTC] PHP Fatal error:  Cannot use isset() on the result of a function call (you can use "null !== func()" instead) in /home/centsoftwares/public_html/idondza/application/controllers/Pages.php on line 66
+[26-Aug-2019 08:59:56 UTC] PHP Fatal error:  Cannot use isset() on the result of a function call (you can use "null !== func()" instead) in /home/centsoftwares/public_html/idondza/application/controllers/Pages.php on line 66
+[26-Aug-2019 09:00:50 UTC] PHP Fatal error:  Cannot use isset() on the result of a function call (you can use "null !== func()" instead) in /home/centsoftwares/public_html/idondza/application/controllers/Pages.php on line 66
+[26-Aug-2019 09:00:52 UTC] PHP Fatal error:  Cannot use isset() on the result of a function call (you can use "null !== func()" instead) in /home/centsoftwares/public_html/idondza/application/controllers/Pages.php on line 66
+[26-Aug-2019 09:04:37 UTC] PHP Parse error:  syntax error, unexpected '?>' in /home/centsoftwares/public_html/idondza/application/views/pages/magazine-details.php on line 43
+[26-Aug-2019 09:22:45 UTC] PHP Fatal error:  Cannot use isset() on the result of a function call (you can use "null !== func()" instead) in /home/centsoftwares/public_html/idondza/application/models/Category_Model.php on line 86
+[26-Aug-2019 09:23:03 UTC] PHP Fatal error:  Cannot use isset() on the result of a function call (you can use "null !== func()" instead) in /home/centsoftwares/public_html/idondza/application/models/Category_Model.php on line 86
+[26-Aug-2019 09:25:05 UTC] PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR) in /home/centsoftwares/public_html/idondza/application/models/Category_Model.php on line 89
+[26-Aug-2019 09:25:06 UTC] PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR) in /home/centsoftwares/public_html/idondza/application/models/Category_Model.php on line 89
+[26-Aug-2019 09:41:08 UTC] PHP Fatal error:  Cannot use isset() on the result of a function call (you can use "null !== func()" instead) in /home/centsoftwares/public_html/idondza/application/views/pages/category.php on line 16
+[26-Aug-2019 09:41:12 UTC] PHP Fatal error:  Cannot use isset() on the result of a function call (you can use "null !== func()" instead) in /home/centsoftwares/public_html/idondza/application/views/pages/category.php on line 16
+[26-Aug-2019 09:41:16 UTC] PHP Fatal error:  Cannot use isset() on the result of a function call (you can use "null !== func()" instead) in /home/centsoftwares/public_html/idondza/application/views/pages/category.php on line 16
+[26-Aug-2019 09:41:18 UTC] PHP Fatal error:  Cannot use isset() on the result of a function call (you can use "null !== func()" instead) in /home/centsoftwares/public_html/idondza/application/views/pages/category.php on line 16
+[26-Aug-2019 09:41:25 UTC] PHP Fatal error:  Cannot use isset() on the result of a function call (you can use "null !== func()" instead) in /home/centsoftwares/public_html/idondza/application/views/pages/category.php on line 16
+[26-Aug-2019 09:41:30 UTC] PHP Fatal error:  Cannot use isset() on the result of a function call (you can use "null !== func()" instead) in /home/centsoftwares/public_html/idondza/application/views/pages/category.php on line 16
+[26-Aug-2019 09:41:31 UTC] PHP Fatal error:  Cannot use isset() on the result of a function call (you can use "null !== func()" instead) in /home/centsoftwares/public_html/idondza/application/views/pages/category.php on line 16
+[26-Aug-2019 09:41:32 UTC] PHP Fatal error:  Cannot use isset() on the result of a function call (you can use "null !== func()" instead) in /home/centsoftwares/public_html/idondza/application/views/pages/category.php on line 16
+[26-Aug-2019 09:43:02 UTC] PHP Fatal error:  Cannot use isset() on the result of a function call (you can use "null !== func()" instead) in /home/centsoftwares/public_html/idondza/application/views/pages/category.php on line 16
+[26-Aug-2019 09:48:25 UTC] PHP Parse error:  syntax error, unexpected '?' in /home/centsoftwares/public_html/idondza/application/views/cart/index.php on line 91
+[26-Aug-2019 09:48:50 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/centsoftwares/public_html/idondza/application/views/cart/index.php on line 91
+[26-Aug-2019 09:49:06 UTC] PHP Parse error:  syntax error, unexpected '$item' (T_VARIABLE) in /home/centsoftwares/public_html/idondza/application/views/cart/index.php on line 91
+[26-Aug-2019 09:51:30 UTC] PHP Parse error:  syntax error, unexpected '$item' (T_VARIABLE) in /home/centsoftwares/public_html/idondza/application/views/cart/index.php on line 91
+[26-Aug-2019 09:55:56 UTC] PHP Parse error:  syntax error, unexpected '"rowid"' (T_CONSTANT_ENCAPSED_STRING) in /home/centsoftwares/public_html/idondza/application/views/cart/index.php on line 91
+[26-Aug-2019 09:57:28 UTC] PHP Parse error:  syntax error, unexpected 'updateCartItem' (T_STRING) in /home/centsoftwares/public_html/idondza/application/views/cart/index.php on line 91
+[26-Aug-2019 09:57:57 UTC] PHP Fatal error:  Call to undefined function updateCartItem() in /home/centsoftwares/public_html/idondza/application/views/cart/index.php on line 91
+[26-Aug-2019 09:59:54 UTC] PHP Fatal error:  Call to undefined function updateCartItem() in /home/centsoftwares/public_html/idondza/application/views/cart/index.php on line 91
+[26-Aug-2019 10:27:34 UTC] PHP Parse error:  syntax error, unexpected '$this' (T_VARIABLE) in /home/centsoftwares/public_html/idondza/application/models/Category_Model.php on line 131
+[26-Aug-2019 10:27:40 UTC] PHP Parse error:  syntax error, unexpected '$this' (T_VARIABLE) in /home/centsoftwares/public_html/idondza/application/models/Category_Model.php on line 131
+[26-Aug-2019 12:32:14 UTC] PHP Fatal error:  Call to a member function contents() on null in /home/centsoftwares/public_html/idondza/application/views/templates/header-front-inner.php on line 76
+[26-Aug-2019 12:32:38 UTC] PHP Fatal error:  Call to a member function contents() on null in /home/centsoftwares/public_html/idondza/application/views/templates/header-front-inner.php on line 76
+[26-Aug-2019 12:33:56 UTC] PHP Fatal error:  Call to a member function contents() on null in /home/centsoftwares/public_html/idondza/application/views/templates/header-front-inner.php on line 76
+[26-Aug-2019 12:33:59 UTC] PHP Fatal error:  Call to a member function contents() on null in /home/centsoftwares/public_html/idondza/application/views/templates/header-front-inner.php on line 76
+[26-Aug-2019 12:34:13 UTC] PHP Fatal error:  Call to a member function contents() on null in /home/centsoftwares/public_html/idondza/application/views/templates/header-front-inner.php on line 76
+[26-Aug-2019 12:34:18 UTC] PHP Fatal error:  Call to a member function contents() on null in /home/centsoftwares/public_html/idondza/application/views/templates/header-front-inner.php on line 76
+[26-Aug-2019 13:32:44 UTC] PHP Parse error:  syntax error, unexpected '?>' in /home/centsoftwares/public_html/idondza/application/views/pages/magazine-details.php on line 49
+[26-Aug-2019 13:42:53 UTC] PHP Fatal error:  Call to a member function contents() on null in /home/centsoftwares/public_html/idondza/application/views/templates/header-front-inner.php on line 76
+[26-Aug-2019 13:43:04 UTC] PHP Fatal error:  Call to a member function contents() on null in /home/centsoftwares/public_html/idondza/application/views/templates/header-front-inner.php on line 76
+[26-Aug-2019 13:43:08 UTC] PHP Fatal error:  Call to a member function contents() on null in /home/centsoftwares/public_html/idondza/application/views/templates/header-front-inner.php on line 76
+[26-Aug-2019 13:43:15 UTC] PHP Fatal error:  Call to a member function contents() on null in /home/centsoftwares/public_html/idondza/application/views/templates/header-front-inner.php on line 76
+[27-Aug-2019 04:50:22 UTC] PHP Fatal error:  Call to undefined method Pages::get_all_search_condition() in /home/centsoftwares/public_html/idondza/application/views/pages/search-reports.php on line 18
+[27-Aug-2019 11:29:12 UTC] PHP Fatal error:  Call to a member function insertOrder() on null in /home/centsoftwares/public_html/idondza/application/controllers/Cart.php on line 40
+[27-Aug-2019 11:30:13 UTC] PHP Fatal error:  Call to undefined method Cart_Model::insertOrderItems() in /home/centsoftwares/public_html/idondza/application/controllers/Cart.php on line 58
+[27-Aug-2019 13:07:24 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/centsoftwares/public_html/idondza/application/controllers/Cart.php on line 89
+[27-Aug-2019 13:08:07 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/centsoftwares/public_html/idondza/application/controllers/Cart.php on line 89
+[27-Aug-2019 13:09:11 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/centsoftwares/public_html/idondza/application/controllers/Cart.php on line 82
+[27-Aug-2019 13:37:28 UTC] PHP Fatal error:  Class 'Google_Client' not found in /home/centsoftwares/public_html/idondza/application/libraries/Google.php on line 18
+[28-Aug-2019 04:28:46 UTC] PHP Fatal error:  Class 'Google_Client' not found in /home/centsoftwares/public_html/idondza/application/libraries/Google.php on line 18
+[28-Aug-2019 04:32:09 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/centsoftwares/public_html/idondza/application/third_party/Google/autoload.php' (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/centsoftwares/public_html/idondza/application/libraries/Google.php on line 15
+[28-Aug-2019 04:33:49 UTC] PHP Fatal error:  require(): Failed opening required './google-api-client/src/Google/Client.php' (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear:./google-api-client/src') in /home/centsoftwares/public_html/idondza/application/libraries/Google.php on line 16
+[28-Aug-2019 04:45:13 UTC] PHP Fatal error:  Call to undefined method Google::loginURL() in /home/centsoftwares/public_html/idondza/application/controllers/Users.php on line 327
+[28-Aug-2019 04:47:11 UTC] PHP Fatal error:  Call to undefined method Google::loginURL() in /home/centsoftwares/public_html/idondza/application/controllers/Users.php on line 327
+[28-Aug-2019 04:47:15 UTC] PHP Fatal error:  Call to undefined method Google::loginURL() in /home/centsoftwares/public_html/idondza/application/controllers/Users.php on line 327
+[28-Aug-2019 04:48:07 UTC] PHP Fatal error:  Call to undefined method Google::loginURL() in /home/centsoftwares/public_html/idondza/application/controllers/Users.php on line 327
+[28-Aug-2019 04:48:11 UTC] PHP Fatal error:  Class 'Google\Auth\OAuth2' not found in /home/centsoftwares/public_html/idondza/application/third_party/google-api-client/src/Google/Client.php on line 976
+[28-Aug-2019 04:49:18 UTC] PHP Fatal error:  Class 'Google\Auth\OAuth2' not found in /home/centsoftwares/public_html/idondza/application/third_party/google-api-client/src/Google/Client.php on line 976
+[28-Aug-2019 04:50:08 UTC] PHP Fatal error:  Class 'Google\Auth\OAuth2' not found in /home/centsoftwares/public_html/idondza/application/third_party/google-api-client/src/Google/Client.php on line 976
+[28-Aug-2019 04:50:09 UTC] PHP Fatal error:  Class 'Google\Auth\OAuth2' not found in /home/centsoftwares/public_html/idondza/application/third_party/google-api-client/src/Google/Client.php on line 976
+[28-Aug-2019 04:50:12 UTC] PHP Fatal error:  Class 'Google\Auth\OAuth2' not found in /home/centsoftwares/public_html/idondza/application/third_party/google-api-client/src/Google/Client.php on line 976
+[28-Aug-2019 04:50:14 UTC] PHP Fatal error:  Class 'Google\Auth\OAuth2' not found in /home/centsoftwares/public_html/idondza/application/third_party/google-api-client/src/Google/Client.php on line 976
+[28-Aug-2019 05:35:51 UTC] PHP Fatal error:  Call to a member function item() on null in /home/centsoftwares/public_html/idondza/application/controllers/Users.php on line 325
+[28-Aug-2019 05:36:00 UTC] PHP Fatal error:  Call to a member function item() on null in /home/centsoftwares/public_html/idondza/application/controllers/Users.php on line 325
+[28-Aug-2019 05:36:07 UTC] PHP Fatal error:  Call to a member function item() on null in /home/centsoftwares/public_html/idondza/application/controllers/Users.php on line 326
+[28-Aug-2019 05:38:43 UTC] PHP Fatal error:  Class 'GoogleLoginApi' not found in /home/centsoftwares/public_html/idondza/application/controllers/Users.php on line 432
+[28-Aug-2019 06:51:53 UTC] PHP Fatal error:  Call to a member function insertTransaction() on null in /home/centsoftwares/public_html/idondza/application/controllers/Cart.php on line 190
+[28-Aug-2019 07:31:59 UTC] PHP Fatal error:  Call to a member function insertTransaction() on null in /home/centsoftwares/public_html/idondza/application/controllers/Cart.php on line 190
+[28-Aug-2019 11:20:19 UTC] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC) in /home/centsoftwares/public_html/idondza/application/controllers/Cart.php on line 174
+[28-Aug-2019 11:21:46 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/centsoftwares/public_html/idondza/application/controllers/Cart.php on line 236
+[28-Aug-2019 11:23:03 UTC] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/centsoftwares/public_html/idondza/application/controllers/Cart.php on line 126
+[28-Aug-2019 11:24:06 UTC] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/centsoftwares/public_html/idondza/application/controllers/Cart.php on line 126
+[28-Aug-2019 11:26:34 UTC] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/centsoftwares/public_html/idondza/application/controllers/Cart.php on line 126
+[28-Aug-2019 11:26:38 UTC] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/centsoftwares/public_html/idondza/application/controllers/Cart.php on line 126
+[28-Aug-2019 11:26:42 UTC] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/centsoftwares/public_html/idondza/application/controllers/Cart.php on line 126
+[29-Aug-2019 07:13:01 UTC] PHP Fatal error:  Call to a member function ip_info() on null in /home/centsoftwares/public_html/idondza/application/controllers/Pages.php on line 18
+[29-Aug-2019 07:55:03 UTC] PHP Parse error:  syntax error, unexpected '?' in /home/centsoftwares/public_html/idondza/application/views/pages/magazine-details.php on line 18
+[29-Aug-2019 09:23:48 UTC] PHP Parse error:  syntax error, unexpected ''</td>' (T_CONSTANT_ENCAPSED_STRING) in /home/centsoftwares/public_html/idondza/application/controllers/Users.php on line 76
+[29-Aug-2019 09:24:51 UTC] PHP Parse error:  syntax error, unexpected ''</td>\' (T_CONSTANT_ENCAPSED_STRING) in /home/centsoftwares/public_html/idondza/application/controllers/Users.php on line 76
+[29-Aug-2019 09:25:29 UTC] PHP Parse error:  syntax error, unexpected ''</td>' (T_CONSTANT_ENCAPSED_STRING) in /home/centsoftwares/public_html/idondza/application/controllers/Users.php on line 76
+[30-Aug-2019 12:28:08 UTC] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/centsoftwares/public_html/idondza/application/views/cart/index.php on line 99
+[30-Aug-2019 12:42:33 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/centsoftwares/public_html/idondza/application/views/users/subscription.php on line 29
+[02-Sep-2019 12:09:58 UTC] PHP Fatal error:  Call to a member function ip_info() on null in /home/centsoftwares/public_html/idondza/application/controllers/Users.php on line 402
+[02-Sep-2019 12:10:14 UTC] PHP Fatal error:  Call to a member function ip_info() on null in /home/centsoftwares/public_html/idondza/application/controllers/Users.php on line 402
+[02-Sep-2019 12:24:37 UTC] PHP Fatal error:  Call to a member function ip_info() on null in /home/centsoftwares/public_html/idondza/application/controllers/Users.php on line 402
+[02-Sep-2019 12:46:09 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/centsoftwares/public_html/idondza/application/controllers/Users.php on line 412
+[03-Sep-2019 04:18:55 UTC] PHP Parse error:  syntax error, unexpected ')', expecting variable (T_VARIABLE) in /home/centsoftwares/public_html/idondza/application/libraries/Iploader.php on line 5
+[03-Sep-2019 04:19:20 UTC] PHP Fatal error:  Call to a member function userdata() on null in /home/centsoftwares/public_html/idondza/application/libraries/Iploader.php on line 6
+[03-Sep-2019 04:20:07 UTC] PHP Fatal error:  Cannot use isset() on the result of a function call (you can use "null !== func()" instead) in /home/centsoftwares/public_html/idondza/application/libraries/Iploader.php on line 6
+[03-Sep-2019 04:20:44 UTC] PHP Fatal error:  Call to a member function userdata() on null in /home/centsoftwares/public_html/idondza/application/libraries/Iploader.php on line 6
+[03-Sep-2019 04:22:23 UTC] PHP Fatal error:  Call to a member function library() on null in /home/centsoftwares/public_html/idondza/application/libraries/Iploader.php on line 6
+[03-Sep-2019 04:26:32 UTC] PHP Fatal error:  Call to a member function userdata() on null in /home/centsoftwares/public_html/idondza/application/libraries/Iploader.php on line 12
+[03-Sep-2019 04:26:34 UTC] PHP Fatal error:  Call to a member function userdata() on null in /home/centsoftwares/public_html/idondza/application/libraries/Iploader.php on line 12
+[03-Sep-2019 07:19:15 UTC] PHP Parse error:  syntax error, unexpected '?' in /home/centsoftwares/public_html/idondza/application/models/Category_Model.php on line 116
+[03-Sep-2019 08:44:44 UTC] PHP Fatal error:  Call to undefined method CI_DB_mysqli_driver::bracket() in /home/centsoftwares/public_html/idondza/application/models/Category_Model.php on line 117
+[03-Sep-2019 12:41:35 UTC] PHP Parse error:  syntax error, unexpected 'endforeach' (T_ENDFOREACH) in /home/centsoftwares/public_html/idondza/application/views/publisher/transactions.php on line 65
+[03-Sep-2019 12:41:36 UTC] PHP Parse error:  syntax error, unexpected 'endforeach' (T_ENDFOREACH) in /home/centsoftwares/public_html/idondza/application/views/publisher/transactions.php on line 65
+[03-Sep-2019 13:32:41 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/centsoftwares/public_html/idondza/application/controllers/Publisher.php on line 293
+[03-Sep-2019 13:32:43 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/centsoftwares/public_html/idondza/application/controllers/Publisher.php on line 467
+[03-Sep-2019 13:32:45 UTC] PHP Parse error:  syntax error, unexpected ''administ' (T_ENCAPSED_AND_WHITESPACE) in /home/centsoftwares/public_html/idondza/application/controllers/Publisher.php on line 606
+[03-Sep-2019 13:36:19 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/centsoftwares/public_html/idondza/application/models/Category_Model.php on line 99
+[03-Sep-2019 13:38:13 UTC] PHP Parse error:  syntax error, unexpected 'return' (T_RETURN) in /home/centsoftwares/public_html/idondza/application/models/Category_Model.php on line 193
+[03-Sep-2019 13:38:21 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/centsoftwares/public_html/idondza/application/models/Category_Model.php on line 126
+[03-Sep-2019 13:38:37 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/centsoftwares/public_html/idondza/application/models/Category_Model.php on line 99
+[03-Sep-2019 13:38:40 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/centsoftwares/public_html/idondza/application/models/Category_Model.php on line 99
+[04-Sep-2019 04:42:08 UTC] PHP Parse error:  syntax error, unexpected end of file, expecting ')' in /home/centsoftwares/public_html/idondza/application/controllers/Users.php on line 634
+[04-Sep-2019 04:43:53 UTC] PHP Parse error:  syntax error, unexpected ''publisher/pending-magazine' (T_ENCAPSED_AND_WHITESPACE) in /home/centsoftwares/public_html/idondza/application/controllers/Publisher.php on line 712
+[04-Sep-2019 05:09:57 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/centsoftwares/public_html/idondza/application/models/Category_Model.php on line 122
+[04-Sep-2019 05:10:18 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/centsoftwares/public_html/idondza/application/controllers/Publisher.php on line 827
+[04-Sep-2019 05:10:19 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/centsoftwares/public_html/idondza/application/controllers/Publisher.php on line 1042
+[04-Sep-2019 05:12:45 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/centsoftwares/public_html/idondza/application/controllers/Publisher.php on line 567
+[04-Sep-2019 05:12:48 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/centsoftwares/public_html/idondza/application/controllers/Publisher.php on line 913
+[04-Sep-2019 05:23:18 UTC] PHP Parse error:  syntax error, unexpected ''Update Pro' (T_ENCAPSED_AND_WHITESPACE) in /home/centsoftwares/public_html/idondza/application/controllers/Publisher.php on line 371
+[04-Sep-2019 05:23:20 UTC] PHP Parse error:  syntax error, unexpected ''publisher/pending-magazine' (T_ENCAPSED_AND_WHITESPACE) in /home/centsoftwares/public_html/idondza/application/controllers/Publisher.php on line 712
+[04-Sep-2019 05:39:32 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/centsoftwares/public_html/idondza/application/controllers/Publisher.php on line 109
+[04-Sep-2019 05:39:35 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/centsoftwares/public_html/idondza/application/controllers/Publisher.php on line 109
+[04-Sep-2019 05:56:39 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/centsoftwares/public_html/idondza/application/controllers/Publisher.php on line 109
+[04-Sep-2019 06:28:00 UTC] PHP Parse error:  syntax error, unexpected ''administrato' (T_ENCAPSED_AND_WHITESPACE) in /home/centsoftwares/public_html/idondza/application/controllers/Publisher.php on line 823
+[04-Sep-2019 06:28:05 UTC] PHP Fatal error:  Call to undefined method CI_DB_mysqli_result::count_all_results() in /home/centsoftwares/public_html/idondza/application/models/Publisher_Model.php on line 170
+[04-Sep-2019 06:28:08 UTC] PHP Fatal error:  Call to undefined method CI_DB_mysqli_result::count_all_results() in /home/centsoftwares/public_html/idondza/application/models/Publisher_Model.php on line 170
+[04-Sep-2019 06:28:09 UTC] PHP Fatal error:  Call to undefined method CI_DB_mysqli_result::count_all_results() in /home/centsoftwares/public_html/idondza/application/models/Publisher_Model.php on line 170
+[04-Sep-2019 06:31:04 UTC] PHP Fatal error:  Call to undefined method CI_DB_mysqli_result::count_all_results() in /home/centsoftwares/public_html/idondza/application/models/Publisher_Model.php on line 170
+[04-Sep-2019 06:49:04 UTC] PHP Parse error:  syntax error, unexpected ''' (T_ENCAPSED_AND_WHITESPACE) in /home/centsoftwares/public_html/idondza/application/controllers/Publisher.php on line 48
+[04-Sep-2019 07:25:26 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO), expecting variable (T_VARIABLE) or '$' in /home/centsoftwares/public_html/idondza/application/views/publisher/dashboard.php on line 144
+[04-Sep-2019 09:36:33 UTC] PHP Fatal error:  Cannot redeclare Administrator_Model::get_transactions_count() in /home/centsoftwares/public_html/idondza/application/models/Administrator_Model.php on line 1267
+[04-Sep-2019 09:36:35 UTC] PHP Fatal error:  Cannot redeclare Administrator_Model::get_transactions_count() in /home/centsoftwares/public_html/idondza/application/models/Administrator_Model.php on line 1267
+[04-Sep-2019 09:37:11 UTC] PHP Fatal error:  Cannot redeclare Administrator_Model::get_transactions_count() in /home/centsoftwares/public_html/idondza/application/models/Administrator_Model.php on line 1267
+[04-Sep-2019 09:37:14 UTC] PHP Fatal error:  Cannot redeclare Administrator_Model::get_transactions_count() in /home/centsoftwares/public_html/idondza/application/models/Administrator_Model.php on line 1267
+[04-Sep-2019 09:38:36 UTC] PHP Fatal error:  Cannot redeclare Administrator_Model::get_transactions_count() in /home/centsoftwares/public_html/idondza/application/models/Administrator_Model.php on line 1267
+[04-Sep-2019 09:38:44 UTC] PHP Fatal error:  Cannot redeclare Administrator_Model::get_transactions_count() in /home/centsoftwares/public_html/idondza/application/models/Administrator_Model.php on line 1267
+[04-Sep-2019 09:42:16 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/centsoftwares/public_html/idondza/application/models/Administrator_Model.php on line 1264
+[04-Sep-2019 09:42:23 UTC] PHP Fatal error:  Cannot redeclare Administrator_Model::get_transactions_count() in /home/centsoftwares/public_html/idondza/application/models/Administrator_Model.php on line 1267
+[04-Sep-2019 09:45:20 UTC] PHP Fatal error:  Cannot redeclare Administrator_Model::get_transactions_count() in /home/centsoftwares/public_html/idondza/application/models/Administrator_Model.php on line 1267
+[04-Sep-2019 09:46:12 UTC] PHP Fatal error:  Cannot redeclare Administrator_Model::get_transactions_count() in /home/centsoftwares/public_html/idondza/application/models/Administrator_Model.php on line 1267
+[04-Sep-2019 09:46:30 UTC] PHP Fatal error:  Cannot redeclare Administrator_Model::get_transactions_count() in /home/centsoftwares/public_html/idondza/application/models/Administrator_Model.php on line 1267
+[04-Sep-2019 13:18:14 UTC] PHP Fatal error:  Call to a member function num_rows() on array in /home/centsoftwares/public_html/idondza/application/controllers/Pages.php on line 88
+[04-Sep-2019 13:18:26 UTC] PHP Fatal error:  Call to a member function num_rows() on array in /home/centsoftwares/public_html/idondza/application/controllers/Pages.php on line 88
+[04-Sep-2019 13:18:28 UTC] PHP Fatal error:  Call to a member function num_rows() on array in /home/centsoftwares/public_html/idondza/application/controllers/Pages.php on line 88
+[04-Sep-2019 13:18:31 UTC] PHP Fatal error:  Call to a member function num_rows() on array in /home/centsoftwares/public_html/idondza/application/controllers/Pages.php on line 88
+[04-Sep-2019 13:18:33 UTC] PHP Fatal error:  Call to a member function num_rows() on array in /home/centsoftwares/public_html/idondza/application/controllers/Pages.php on line 88
+[04-Sep-2019 13:18:35 UTC] PHP Fatal error:  Call to a member function num_rows() on array in /home/centsoftwares/public_html/idondza/application/controllers/Pages.php on line 88
+[04-Sep-2019 13:18:36 UTC] PHP Fatal error:  Call to a member function num_rows() on array in /home/centsoftwares/public_html/idondza/application/controllers/Pages.php on line 88
+[04-Sep-2019 17:08:45 UTC] PHP Fatal error:  Call to a member function set_userdata() on null in /home/centsoftwares/public_html/idondza/application/libraries/Iploader.php on line 31
+[05-Sep-2019 04:01:37 UTC] PHP Fatal error:  Call to a member function change_visitor_currency() on null in /home/centsoftwares/public_html/idondza/application/libraries/Iploader.php on line 21
+[05-Sep-2019 04:02:56 UTC] PHP Fatal error:  Call to a member function change_visitor_currency() on null in /home/centsoftwares/public_html/idondza/application/libraries/Iploader.php on line 21
+[05-Sep-2019 04:04:48 UTC] PHP Fatal error:  Call to a member function change_visitor_currency() on null in /home/centsoftwares/public_html/idondza/application/libraries/Iploader.php on line 21
+[05-Sep-2019 07:11:16 UTC] PHP Parse error:  syntax error, unexpected ''c_slug'' (T_CONSTANT_ENCAPSED_STRING), expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in /home/centsoftwares/public_html/idondza/application/controllers/Pages.php on line 108
+[05-Sep-2019 13:30:51 UTC] PHP Fatal error:  Call to a member function delete_transaction_by_oid() on null in /home/centsoftwares/public_html/idondza/application/controllers/Administrator.php on line 2653
+[05-Sep-2019 13:31:57 UTC] PHP Fatal error:  Call to a member function delete_transaction_by_oid() on null in /home/centsoftwares/public_html/idondza/application/controllers/Administrator.php on line 2653
+[05-Sep-2019 15:16:28 UTC] PHP Fatal error:  Call to a member function set_userdata() on null in /home/centsoftwares/public_html/idondza/application/libraries/Iploader.php on line 31
+[06-Sep-2019 11:02:25 UTC] PHP Parse error:  syntax error, unexpected '?>' in /home/centsoftwares/public_html/idondza/application/views/templates/header-front.php on line 100
+[06-Sep-2019 11:02:25 UTC] PHP Parse error:  syntax error, unexpected '?>' in /home/centsoftwares/public_html/idondza/application/views/templates/header-front.php on line 100
+[06-Sep-2019 11:02:46 UTC] PHP Parse error:  syntax error, unexpected '?>' in /home/centsoftwares/public_html/idondza/application/views/templates/header-front.php on line 104
+[06-Sep-2019 11:02:48 UTC] PHP Parse error:  syntax error, unexpected '?>' in /home/centsoftwares/public_html/idondza/application/views/templates/header-front.php on line 104
+[06-Sep-2019 11:57:41 UTC] PHP Parse error:  syntax error, unexpected '?>' in /home/centsoftwares/public_html/idondza/application/views/templates/header-front.php on line 116
+[06-Sep-2019 12:09:51 UTC] PHP Fatal error:  Call to undefined function the_permalink() in /home/centsoftwares/public_html/idondza/application/views/pages/article.php on line 38
+[06-Sep-2019 12:09:56 UTC] PHP Fatal error:  Call to undefined function the_permalink() in /home/centsoftwares/public_html/idondza/application/views/pages/article.php on line 38
+[06-Sep-2019 12:11:19 UTC] PHP Fatal error:  Call to undefined function the_permalink() in /home/centsoftwares/public_html/idondza/application/views/pages/article.php on line 38
+[06-Sep-2019 12:11:22 UTC] PHP Fatal error:  Call to undefined function the_permalink() in /home/centsoftwares/public_html/idondza/application/views/pages/article.php on line 38
+[06-Sep-2019 12:11:25 UTC] PHP Fatal error:  Call to undefined function the_permalink() in /home/centsoftwares/public_html/idondza/application/views/pages/article.php on line 38
+[06-Sep-2019 12:11:37 UTC] PHP Fatal error:  Call to undefined function the_permalink() in /home/centsoftwares/public_html/idondza/application/views/pages/article.php on line 38
+[06-Sep-2019 12:12:44 UTC] PHP Fatal error:  Call to undefined function the_permalink() in /home/centsoftwares/public_html/idondza/application/views/pages/article.php on line 38
+[06-Sep-2019 12:15:13 UTC] PHP Fatal error:  Call to undefined function the_permalink() in /home/centsoftwares/public_html/idondza/application/views/pages/article.php on line 38
+[06-Sep-2019 12:15:20 UTC] PHP Fatal error:  Call to undefined function the_permalink() in /home/centsoftwares/public_html/idondza/application/views/pages/article.php on line 38
+[07-Sep-2019 05:51:16 UTC] PHP Parse error:  syntax error, unexpected '.' in /home/centsoftwares/public_html/idondza/application/views/pages/article.php on line 75
+[07-Sep-2019 06:01:56 UTC] PHP Fatal error:  Cannot use object of type stdClass as array in /home/centsoftwares/public_html/idondza/application/views/pages/article.php on line 76
+[07-Sep-2019 07:05:38 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/centsoftwares/public_html/idondza/application/controllers/Administrator.php on line 392

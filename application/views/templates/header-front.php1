@@ -1,0 +1,106 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<link rel='stylesheet' href='<?php echo base_url(); ?>assets/style.css' type='text/css' media='all' />
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title><?=$title?></title>
+<?php 
+if(isset($page))
+{
+	if('pages/magazine-details' == $page)
+	{ 
+		$actual_link = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http") . "://{$_SERVER['HTTP_HOST']}{$_SERVER['REQUEST_URI']}";
+?>
+	<!--og:title -->
+	<meta property="og:title" content="<?=ucfirst($myissue->issue_name)?> - <?=date('d F Y', strtotime($myissue->publishing_date))?>">
+	 
+	<!--og:image -->
+	<meta property="og:image" content="<?php echo site_url('assets/images/magzines/cover/'.$myissue->cover);?>">
+	 
+	<!--og:description -->
+	<meta property="og:description" content="<?php echo $myissue->description;?>">
+	 
+	<!--og:type -->
+	<meta property="og:type" content="article">
+	 
+	<!--og:url -->
+	<meta property="og:url" content="<?=$actual_link?>">
+
+	<!--og:site_name -->
+	<meta property="og:site_name" content="<?=site_url()?>">
+	 
+
+	<!--twitter:title -->
+	<meta name="twitter:card" content="summary" />
+	<meta name="twitter:site" content="@<?=site_url()?>" />
+	<meta name="twitter:creator" content="@<?=ucfirst($magazine['publisher_company'])?>" />
+	<meta property="og:url" content="<?=$actual_link?>" />
+	<meta property="og:title" content="<?=ucfirst($myissue->issue_name)?> - <?=date('d F Y', strtotime($myissue->publishing_date))?>" />
+	<meta property="<?php echo $myissue->description;?>" />
+	<meta property="og:image" content="<?php echo site_url('assets/images/magzines/cover/'.$myissue->cover);?>"/>
+<?php }
+}
+?>
+<link href="https://fonts.googleapis.com/css?family=Roboto:300i,400,400i,500,700,900&display=swap" rel="stylesheet"> 
+<script type="text/javascript" src="https://code.jquery.com/jquery-1.9.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.16.0/jquery.validate.min.js"></script>
+<style type="text/css">
+	.error{
+	    color: red;
+}
+#at4-share{
+	display: none;
+}
+</style>
+</head>
+
+<body>
+
+<div class="menubox">
+<div class="menu">
+  <div class="headright">
+  <ul>
+<!-- <li class="signin"><a href="#">sign In</a></li> -->
+	<?php if(!$this->session->userdata('login')): ?>
+	<li><a href="<?php echo base_url(); ?>publisher/register">Register as Publisher </a></li>
+	<li><a href="<?php echo base_url(); ?>users/register">Register as Reader </a></li>
+	<li><a href="<?php echo base_url(); ?>users/login">Login</a></li>
+	<?php endif; ?>
+	<?php if($this->session->userdata('login')): ?>
+	<li><a href="<?php echo base_url(); ?>users/dashboard"><?php echo $this->session->userdata('username'); ?></a></li>
+	<li><a href="<?php echo base_url(); ?>users/logout">Logout</a></li>
+	<?php endif; ?>
+    <li class="cart"><a href="#"><span>0</span></a></li>
+</ul>
+</div>
+
+<nav>
+  <div>Menu</div>
+  <ul>
+	<?php $this->load->model('Category_Model');
+	  $cat_menu = $this->Category_Model->product_categories();
+	  foreach ($cat_menu as $category_menu) {
+	  $categroy = $this->uri->segment(2);
+	  $class = '';
+	  if($categroy == $category_menu['slug'] )
+	  {
+	  	$class = 'class="active"';
+	  }
+  	?>
+		<li><a href="<?=base_url('category/'.$category_menu['slug'])?>" <?=$class?> ><?=$category_menu['name']?></a></li>
+	<?php } ?>
+	</ul>
+
+</nav>
+
+</div>
+</div>
+
+<div id="headbg">
+<div class="container">
+<div class="logo"><a href="<?=site_url();?>"><img src="<?php echo base_url(); ?>assets/images/front/idondza.jpg" alt="idondza" /></a></div>
+
+<div class="clear"></div>
+</div>
+</div>

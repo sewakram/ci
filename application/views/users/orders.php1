@@ -1,0 +1,188 @@
+
+<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.19/css/jquery.dataTables.min.css"/>
+
+<div class="col-md-12" style="margin-top: 5%">
+
+<?php
+$this->load->view('users/sidebar');
+?>
+
+    
+        <div class="col-md-10 page">
+                <table id="example" class="display" style="width:100%">
+        <thead>
+            <tr>
+                <th>S.No</th>
+                <th>Receipt No</th>
+                <th>Purchase Date</th>
+                <!-- <th>Type Of Purchase</th> -->
+                <!-- <th>Qty</th> -->
+                <th>Amount</th>
+                <th>Status</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody>
+            <?php 
+            // print_r($orders);die();
+            $srno  = 1;
+            
+            foreach ($orders as $order) { ?>
+            <tr>
+                <td><?php echo $srno; ?></td>
+                <td><?php echo $order['recept_no']; ?></td>
+                <td><?php echo $order['purchase_date']; ?></td>
+                <!-- <td><?php //echo $order['qty']; ?></td> -->
+                <td><?php echo $order['amount']; ?></td>
+                <td>
+                    <?php  
+                    switch ($order['status']) {
+                    case 1:
+                    echo "Completed";
+                    break;
+                    case 0:
+                    echo "Pending";
+                    break;
+                    case 2:
+                    echo "Inprocess";
+                    break;
+                    default:
+                    echo "Cancel";
+                    }
+                    ?>
+                    
+                </td>
+                <td><a class="label label-inverse-info" href="<?php echo base_url(); ?>users/vieworder/<?php echo $order['id']; ?>">View</a></td>
+            </tr>
+            <?php $srno++; } ?>
+           <!--  <tr>
+                <td>Garrett Winters</td>
+                <td>Accountant</td>
+                <td>Tokyo</td>
+                <td>63</td>
+                <td>2011/07/25</td>
+                <td>$170,750</td>
+                <td>$170,750</td>
+            </tr>
+            <tr>
+                <td>Ashton Cox</td>
+                <td>Junior Technical Author</td>
+                <td>San Francisco</td>
+                <td>66</td>
+                <td>2009/01/12</td>
+                <td>$86,000</td>
+                <td>$86,000</td>
+            </tr>
+            <tr>
+                <td>Cedric Kelly</td>
+                <td>Senior Javascript Developer</td>
+                <td>Edinburgh</td>
+                <td>22</td>
+                <td>2012/03/29</td>
+                <td>$433,060</td>
+                <td>$433,060</td>
+            </tr>
+            <tr>
+                <td>Airi Satou</td>
+                <td>Accountant</td>
+                <td>Tokyo</td>
+                <td>33</td>
+                <td>2008/11/28</td>
+                <td>$162,700</td>
+                <td>$162,700</td>
+            </tr>
+            
+            <tr>
+                <td>Michael Bruce</td>
+                <td>Javascript Developer</td>
+                <td>Singapore</td>
+                <td>29</td>
+                <td>2011/06/27</td>
+                <td>$183,000</td>
+                <td>$183,000</td>
+            </tr>
+            <tr>
+                <td>Donna Snider</td>
+                <td>Customer Support</td>
+                <td>New York</td>
+                <td>27</td>
+                <td>2011/01/25</td>
+                <td>$112,000</td>
+                <td>$112,000</td>
+            </tr> -->
+        </tbody>
+        <tfoot>
+            <tr>
+                <th>S.No</th>
+                <th>Receipt No</th>
+                <th>Purchase Date</th>
+                <!-- <th>Type Of Purchase</th> -->
+                <!-- <th>Qty</th> -->
+                <th>Amount</th>
+                <th>Status</th>
+                <th>Action</th>
+            </tr>
+        </tfoot>
+    </table>               
+        </div>
+
+</div>
+<script type="text/javascript">
+   $( function() {
+    $('#example').DataTable();
+  } );
+</script>
+
+ <!-- <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.js"></script> -->
+<script type="text/javascript" src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js"></script>
+
+
+<style type="text/css">
+    
+    .page {
+    margin-bottom: 5% !important;
+    margin-top: -5% !important;
+    width: 900px;
+    margin: 0 auto;
+}
+.errorbox{
+    margin-bottom: 5% !important;
+    margin-top: -5% !important;
+    width: 800px;
+    margin: 0 auto;
+}
+.fade.in {
+    opacity: 1;
+}
+.alert-success {
+    color: #3c763d;
+    background-color: #dff0d8;
+    border-color: #d6e9c6;
+}
+.alert-danger {
+    color: #a94442;
+    background-color: #f2dede;
+    border-color: #ebccd1;
+}
+.alert-dismissable, .alert-dismissible {
+    padding-right: 35px;
+}
+.alert {
+    padding: 15px;
+        padding-right: 15px;
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+        border-top-color: transparent;
+        border-right-color: transparent;
+        border-bottom-color: transparent;
+        border-left-color: transparent;
+    border-radius: 4px;
+}
+.fade {
+    opacity: 0;
+    -webkit-transition: opacity .15s linear;
+    -o-transition: opacity .15s linear;
+    transition: opacity .15s linear;
+}
+
+</style>

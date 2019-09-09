@@ -1,0 +1,321 @@
+<div class="catwrapp singleproduct">
+<div class="container">
+<ul class="breadcrumb">
+<li><a href="<?=site_url();?>">Home</a></li><li><a href="<?=site_url('category/'.$category->slug)?>"><?=ucfirst($category->name)?></a></li><li><?=ucfirst($magazine['name'])?></li><li><?=date('F Y', strtotime($myissue->publishing_date))?></li>
+</ul>
+<div class="whitebg">
+<div class="prod-section">
+<div class="proleft"><img src="<?php echo site_url('assets/images/magzines/cover/'.$myissue->cover);?>" alt="" title="" /><div class="content">
+</div><div class="clear"></div>
+<?php $actual_link = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http") . "://{$_SERVER['HTTP_HOST']}{$_SERVER['REQUEST_URI']}"; ?>
+<a href="https://twitter.com/intent/tweet?url=<?php echo $actual_link.'&text='.ucfirst($myissue->issue_name);?>" class="twitter-pro"><br class="clear" /></a><a href="#" class="fb-pro" onclick="
+                    window.open(
+                    'https://www.facebook.com/sharer/sharer.php?u='+encodeURIComponent('<?php echo $actual_link;?>'), 
+                    'facebook-share-dialog', 
+                    'width=626,height=436'); 
+                    return false;"><br class="clear" /></a><a href="https://www.linkedin.com/shareArticle?mini=true&url=<?php echo $actual_link;?>" class="linke-pro"><br class="clear" /></a></div>
+<div class="proright">
+<?php
+  $field = array(
+          "user_id" => $this->session->userdata('user_id'),
+          "issue_id" =>$myissue->id
+        );
+  $selectRecord = $this->Category_Model->checkrecords('favourites', $field);
+  $classfav = (count($selectRecord))? 'fav-box active' : 'fav-box';
+ ?>
+<div class="prohead"><h1><span id="favbox" class="<?=$classfav?>" onclick="<?php echo (!$this->session->userdata('login'))? "window.location.href='".site_url('users/login')."';" : 'addfav('.$myissue->id.')';?>"><br class="clear" /></span><?=ucfirst($myissue->issue_name)?> - <?=date('d F Y', strtotime($myissue->publishing_date))?></h1></div>
+<div class="addthis_inline_share_toolbox"></div> 
+<ul class="publisher-details">
+<li><span>Publisher :</span> <?=ucfirst($magazine['publisher_company'])?></li>
+<li><span>Category :</span> <?=ucfirst($category->name)?></li>
+<li><span>Language :</span> <?php $this->load->model('Category_Model'); $languages = $this->Category_Model->get_details_table('languages', 'id',$magazine['languages'], 'name'); echo $languages['name']; ?></li>
+<li><span>Frequency :</span> <?php $frequency = $this->myissue->comman_single_record('magazine_frequency','id',$magazine['frequency']); echo ucfirst($frequency->name);?></li>
+
+</ul>
+<section class="idonz-maga">
+<section class="indoz limitedoffer">
+<h4><?=ucfirst($magazine['name'])?> Subscription Plans </h4>
+<p class="offerNew"><?=$magazine['description']?> </p>
+<ul>                                               
+<li>
+   <div class="radio">
+   <input class="rdtxt" id="radio-1" name="radio_purchase" type="radio" value="gold_paid_one" checked> 
+   <label for="radio-1" class="radio-label">Price - $ <span class="price"><?=number_format(($myissue->issue_price * 30)/ $frequency->value,2)?></span>  / Month </label>
+   </div>
+</li>
+<li>
+  <div class="radio">
+   <input class="rdtxt" id="radio-1" name="radio_purchase" type="radio" value="gold_paid_one" checked> 
+   <label for="radio-1" class="radio-label">Price - $ <span class="price"><?php echo number_format(($myissue->issue_price * 360)/ $frequency->value,2);?></span>  / Year </label>
+   </div>
+</li>
+
+</ul>
+
+</section>
+
+<section class="idonztop">
+<h4><?php ucfirst($magazine['name']) ?> Subscription Plans</h4>
+
+<ul>
+  <?php if($myissue->issue_price != 0 && $myissue->issue_price > 0 ){ ?>
+<li>
+   <div class="radio">
+    <span class="planshead">Single Issue</span>
+   <input class="rdtxt" id="radio-3" name="subscripplan" type="radio" value="gold_paid_one" checked>
+   <label for="radio-3" class="radio-label">$ <span class="price"><?php echo number_format($myissue->issue_price,2)?></span></label>
+   </div>
+</li>
+<?php if($magazine['magazine_three_mon_sub_price'] != 0 && $magazine['magazine_three_mon_sub_price'] > 0 ){ ?>
+<li>
+ <div class="radio">
+  <span class="planshead">3 Month</span>
+  <input class="rdtxt" id="radio-4" name="subscripplan" type="radio" value="gold_paid" checked>
+   <label for="radio-4" class="radio-label">$ <span class="price"><?=number_format($magazine['magazine_three_mon_sub_price'],2)?></span></label>
+</div>
+</li>
+<?php } ?>
+<?php if($magazine['magazine_six_mon_sub_price'] != 0 && $magazine['magazine_six_mon_sub_price'] > 0 ){ ?>
+<li>
+ <div class="radio">
+  <span class="planshead">6 Month</span>
+  <input class="rdtxt" id="radio-4" name="subscripplan" type="radio" value="gold_paid" checked>
+   <label for="radio-4" class="radio-label">$ <span class="price"><?=number_format($magazine['magazine_six_mon_sub_price'],2)?></span></label>
+</div>
+</li>
+<?php } ?>
+<?php if($magazine['magazine_twelve_mon_sub_price'] != 0 && $magazine['magazine_twelve_mon_sub_price'] > 0 ){ ?>
+<li>
+ <div class="radio">
+  <span class="planshead">1 Year</span>
+  <input class="rdtxt" id="radio-4" name="subscripplan" type="radio" value="gold_paid" checked>
+   <label for="radio-4" class="radio-label">$ <span class="price"><?=number_format($magazine['magazine_twelve_mon_sub_price'],2)?></span></label>
+</div>
+</li>
+<?php } ?>
+<?php }else{ ?>
+    <li>
+   <div class="radio">
+    <span class="planshead">Single Issue</span>
+   <input class="rdtxt" id="radio-3" name="subscripplan" type="radio" value="gold_paid_one" checked>
+   <label for="radio-3" class="radio-label">$ <span class="price">Free</span></label>
+   </div>
+</li>
+<?php } ?>
+</ul>
+
+
+
+</section> 
+</section>
+    <script src="<?php echo base_url(); ?>pages/js/bootstrap.min.js"></script>
+<script type="text/javascript">
+      $(function () {
+        var titles = {
+          'bookview': 'idondza',
+        }, title = $('title'), content = $('.content');
+        function loadContent(docName) {
+          title.text(titles[docName]);
+          $.get( '<?php echo base_url('pages/viewmagazine'); ?>', { name: "<?=$myissue->preview?>", time: "2pm" } )
+          .done(function( html ) {
+            content.html(html);
+          });
+        }
+        function navigation(e) {
+          var target = e.target;
+          while(target && target.tagName!=='A') {
+            target = target.parentNode;
+          }
+          if(target && target.href.indexOf('#')===-1 && target.href.indexOf(window.location.origin)===0) {
+            e.preventDefault();
+            var location = window.location,
+                parts = target.href.substr(location.origin.length).split(location.pathname),
+                docName = parts[parts.length-1];
+            if(docName==='') {
+              docName = 'bookview';
+            }
+            if(((history.state || {}).docName || '')!==docName) {
+              //history.pushState({docName: docName}, titles[docName], '#'+docName);
+              //alert(docName);
+              //loadContent(docName);
+            }
+          }
+        }
+        $(window).on('popstate', function(e) {
+          if(e.originalEvent.state) {
+            loadContent(e.originalEvent.state.docName);
+          }
+        });
+
+        var docName = window.location.hash.substr(1) || '';
+        if(docName==='' || !titles[docName]) {
+          docName = 'bookview';
+        }
+        //history.replaceState({docName: docName}, titles[docName], '#'+docName);
+        loadContent(docName);
+      });
+    </script>
+ <script src="<?php echo base_url(); ?>pages/js/script.js"></script>
+<button type="submit" name="add" class="add-to-cart"><span data-add-to-cart-text="">Add to cart</span></button>
+<div class="clear"></div>
+
+
+</div>
+<div class="clear"></div>
+
+
+<div class="product-tabs">
+  <input type="radio" name="tabs" id="pro-desc" checked="checked">
+  <label for="pro-desc">Magazine Description</label>
+  <div class="tab">
+     <p><?=$magazine['description']?></p>
+  </div>
+  <input type="radio" name="tabs" id="issue-desc">
+  <label for="issue-desc">Issue Description</label>
+  <div class="tab">
+    <p><?php echo $myissue->description;?></p>
+  </div>
+  
+
+</div>
+<div class="clear"></div>
+</div>
+<!-- <h2>Recent Issues</h2>
+<div class="recent-issues">
+<div class="catList">
+<ul>
+<li><a href="#"><img src="images/mag-thumb1.jpg" alt="" title="" /><h3>Lorem Ipsum industry</h3></a></li>
+<li><a href="#"><img src="images/mag-thumb2.jpg" alt="" title="" /><h3>Lorem Ipsum industry</h3></a></li>
+<li><a href="#"><img src="images/mag-thumb3.jpg" alt="" title="" /><h3>Lorem Ipsum industry</h3></a></li>
+<li><a href="#"><img src="images/mag-thumb4.jpg" alt="" title="" /><h3>Lorem Ipsum industry</h3></a></li>
+<li><a href="#"><img src="images/mag-thumb5.jpg" alt="" title="" /><h3>Lorem Ipsum industry</h3></a></li>
+</ul>
+</div>
+</div>
+<a href="#" class="viewall">VIEW ALL  >></a> -->
+<div class="clear"></div>
+<h2>Magazines from <?=ucfirst($category->name)?></h2>
+
+<div class="recent-issues">
+  <?php $recent_cat_magazine = $this->Category_Model->get_last_recent_magazines('DESC', 5, $magazine['id']); 
+  ?>
+  <?php 
+      if(count($recent_cat_magazine) > 0)
+      {
+  ?>
+  <div class="catList">
+  <ul>
+    <?php 
+      foreach($recent_cat_magazine as $recent_cat_magazines){
+      ?>
+        <li><a href="<?=site_url('magazine/'.$category->slug.'/'.$magazine['slug'].'/'.$recent_cat_magazines['slug']);?>"><img src="<?php echo site_url('assets/images/magzines/cover/'.$recent_cat_magazines['cover']);?>" alt="" title="" /><h3><?=$recent_cat_magazines['issue_name']?></h3></a></li>
+      <?php } ?>
+  </ul>
+  <?php 
+    }
+    else
+    {
+      echo "Sorry Not any magazine avail in this category.";
+    }
+  ?>
+</div>
+</div>
+<a href="<?=site_url('category/'.$category->slug)?>" class="viewall">VIEW ALL  >></a>
+<div class="clear"></div>
+
+</div>
+<style type="text/css">
+  /* Popup box BEGIN */
+.hover_bkgr_fricc{
+    background:rgba(0,0,0,.4);
+    cursor:pointer;
+    display:none;
+    height:100%;
+    position:fixed;
+    text-align:center;
+    top:0;
+    width:100%;
+    z-index:10000;
+}
+.hover_bkgr_fricc .helper{
+    display:inline-block;
+    height:100%;
+    vertical-align:middle;
+}
+.hover_bkgr_fricc > div {
+    background-color: #fff;
+    box-shadow: 10px 10px 60px #555;
+    display: inline-block;
+    height: auto;
+    max-width: 551px;
+    min-height: 100px;
+    vertical-align: middle;
+    width: 60%;
+    position: relative;
+    border-radius: 8px;
+    padding: 15px 5%;
+}
+.popupCloseButton {
+    background-color: #fff;
+    border: 3px solid #999;
+    border-radius: 50px;
+    cursor: pointer;
+    display: inline-block;
+    font-family: arial;
+    font-weight: bold;
+    position: absolute;
+    top: -20px;
+    right: -20px;
+    font-size: 25px;
+    line-height: 30px;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+}
+.popupCloseButton:hover {
+    background-color: #ccc;
+}
+.trigger_popup_fricc {
+    cursor: pointer;
+    font-size: 20px;
+    margin: 20px;
+    display: inline-block;
+    font-weight: bold;
+}
+/* Popup box BEGIN */
+</style>
+
+<div class="hover_bkgr_fricc">
+    <span class="helper"></span>
+    <div>
+        <p><?=ucfirst($myissue->issue_name)?></p><p id="fav-msg"></p>
+    </div>
+</div>
+<script>
+  function addfav(favid){
+      $.ajax({
+        type: 'POST',
+        url: '<?=site_url('pages/addfav');?>',
+        data: 'fav='+favid,
+        success: function(data){
+          var obj = JSON.parse(data);
+          if(obj.class)
+          {
+              $('#fav-msg').html(obj.msg);
+              $('.hover_bkgr_fricc').show();
+              setTimeout(function(){ $('.hover_bkgr_fricc').hide(); },2000);
+              $('#favbox').addClass('active');
+          }
+          else
+          {
+             $('#fav-msg').html(obj.msg);
+             $('.hover_bkgr_fricc').show();
+             setTimeout(function(){ $('.hover_bkgr_fricc').hide(); },2000);
+             $('#favbox').removeClass('active');
+          }
+        }
+    });
+  }
+</script>
+</div>
+</div>
